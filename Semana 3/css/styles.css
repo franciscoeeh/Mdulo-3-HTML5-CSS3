@@ -18,6 +18,12 @@ h1, h2, h3 {
 p {
   margin: 10px 0;
 }
+b{
+  color: red;
+}
+text {
+  color: yellow;
+}
 /* Clases Generales */
 /* container mantendrá el contenido centrado y con un máximo de ancho */
 .container {
@@ -104,6 +110,9 @@ p {
   background: #5BBF21;
   color: yellow;
 }
+.bg-dato {
+  background-color: red;
+}
 #home-info {
   height: 400px;
 }
@@ -112,6 +121,14 @@ p {
   width: 50%;
   background: url('../img/img1.jpg') no-repeat center center/cover;
       min-height: 100%;
+}
+.info-content1 {
+  float: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
 }
 #home-info .info-content {
   float: right;
@@ -143,7 +160,7 @@ p {
   text-align: center;
   background: #1C3B82;
   color: #fff;
-  padding: 5px;
+  padding: 3px;
 }
 /*Paso 15*/
 .l-heading {
@@ -215,7 +232,9 @@ p {
 #contact-form textarea {
   height: 200px;
 }
-/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+/*La propiedad focus se presenta cuando el usuario selecciona un
+input en este caso el resultado será un cambio de color en el borde
+de los inputs y de los textarea al momento de seleccionarlos*/
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
